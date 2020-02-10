@@ -150,7 +150,10 @@ header::before {
     height: 106px;
     opacity: .4;
 }
-
+header i {
+    color: white;
+    
+}
 header .nav-item {
     border: 0px solid #fdfdfe;;
     border-left-width: 2px;
@@ -276,9 +279,6 @@ header .nav-item .nav-link:hover {
     padding-top: 70px;
     padding-bottom: 30px;
 }
-#expert .title h2 {}
-#expert .exp_item {}
-#expert .exp_item .media {}
 #expert .exp_item .media .exp_img{
     width: 182px;
     height: 196px;
@@ -315,19 +315,19 @@ header .nav-item .nav-link:hover {
 /* Service CSS Start */
 #service {
     background-color: #f7f7f7;
-    padding: 145px 0px;
+    padding: 110px 0px;
 }
 /* Service CSS End */
 
 
 /* Article CSS Start */
 #article {
-    padding: 145px 0px;
+    padding: 110px 0px;
 }
 #article .arrow_icon {
     position: absolute;
     bottom: 13px;
-    right: 4px;
+    right: -12px;
 }
 #article  .arrow_icon .fa {
     width: 45px;
@@ -360,7 +360,7 @@ header .nav-item .nav-link:hover {
 /* Ourquoi CSS Start */
 #pourquoi {
     background-color: #f7f7f7;
-    padding: 145px 0px;
+    padding: 110px 0px;
 }
 #pourquoi .title h2{
     font-size: 30px;
@@ -430,10 +430,10 @@ header .nav-item .nav-link:hover {
 
 /* Association CSS Start  */
 #association {
-    padding: 113px 0px;
+    padding: 110px 0px;
     position: relative;
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #association .title h2{
@@ -471,7 +471,7 @@ header .nav-item .nav-link:hover {
 /* Footer CSS Start */
 footer {
     background: #2e2e2e;
-    padding: 145px 0px;
+    padding: 110px 0px;
 }
 .footer_item {}
 .footer_item h4 {
