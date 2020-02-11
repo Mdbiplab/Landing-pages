@@ -4,7 +4,7 @@
         display: none;
     }
     #header_top p {
-        font-size: 10px;
+        font-size: 9px;
     }
     #header_top .header_top_right p {
         margin-right: 10px;
@@ -51,6 +51,7 @@
     } 
 
     #slider h1 {
+        font-size: 32px;
         padding: 0px;
         padding: top;
         padding-top: 215px;
@@ -58,6 +59,7 @@
     }
 
     #slider p {
+        font-size: 15px;
         padding: 0px;
         text-align: center;
     }
@@ -71,7 +73,7 @@
     }
 
     #expert .heading h1 {
-        font-size: 35px;
+        font-size: 25px;
         text-align: center;
         padding-top: 75px;
     }
@@ -91,9 +93,25 @@
         margin-right: 0px;
         margin: auto;
     }
+    .card_custom .card-body h5 {
+        text-align: center;
+    }
+    .card_custom .card-body p {
+        text-align: center;
+        font-size: 11px;
+    }
+    .blue_btn {
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        background: #25a590;
+        padding: 8px 25px;
+        margin-left: 27%;
+    }
+    
     .card_custom .card-img-top {
         height: 300px;
-        margin-top: 50px;
+        margin-top: 45px;
     }
 
     #article {
@@ -108,6 +126,9 @@
     #article .article_img img {
         width: 100%;
     }
+    #article .article_text h3 {
+        font-size: 25px;
+    }
 
     #pourquoi {
         padding: 0px;
@@ -116,15 +137,28 @@
 
     #pourquoi .title h2 {
         margin-top: 80px;
+        font-size: 22px;
     }
+    .pourquoi_item .media-body h4 {
+        font-size: 20px;
+    }
+
+
+    .title h2 {
+        font-size: 22px;
+    }
+    .sub_title h3 {
+        font-size: 20px;
+    }
+
+
+
     .propos_img img {
         width: 100%;
     }
     .propos_text .blue_btn {
         position: absolute;
-        bottom: -40px;
-        left: 215px;
-
+       left: 30%;
     }
 
     #association {
@@ -136,7 +170,7 @@
         overflow: hidden;
     }
     #association .association_img {
-        width: 255px;
+        width: 130px;
     }
     .association_center .association_img {
         width: 100%!important;
@@ -147,15 +181,32 @@
     }
 
     .footer_item {
-        padding: 0px 29%;
+        padding: 0px 14%%;
     }
+
 
     .footer_logo p {
         margin: 30px 0px;
     }
+    .footer_logo .blue_btn {
+        margin-left: 0px;
+        padding: 0px -13px;
+        font-size: 12px;
+        padding: 5px 5px;
+    }
     .contact {
         margin-top: 50px;
     }
+/* 
+    .contact p a {
+        color: #fff;
+        font-size: 7px;
+    }
+    .footer_item p {
+        font-size: 9px;
+        font-weight: 400;
+        color: #ffff;
+    } */
 
 
 }
