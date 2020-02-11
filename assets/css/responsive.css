@@ -31,30 +31,66 @@
         margin-right: 37px!important
     }
 
+
+    .navbar {
+      
+        padding: 1.5rem 1rem;
+    }
+    .navbar-brand {
+        padding: 0px !important;
+    }
+    .navbar-brand img {
+        width: 183px;
+    }
+
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        background: gray;
+        width: 230px;
+        padding: 9px 0px;
+     
+    }
+   
+    header .nav-item .nav-link {
+        color: #fff;
+        margin-right: 15px;
+    }
+
     header .nav-item {
         border: none;
         text-align: right;
-        margin-bottom: 5px;
+        margin-bottom: 12px;
     }
-
-
+  
+    #slider {
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
     #slider::before {
         content: '';
         position: absolute;
         left: 0;
-        top: 225px;
+        top: 250px;
         right: 200;
         background: #000000;
         width: 100%;
-        height: 250px;
+        height: 180px;
         opacity: .41;
     } 
 
     #slider h1 {
-        font-size: 32px;
+        font-size: 27px;
         padding: 0px;
         padding: top;
-        padding-top: 215px;
+        padding-top: 235px;
         text-align: center;
     }
 
@@ -65,7 +101,7 @@
     }
 
     #banner .ban_item .media img {
-        margin-left: 50px;
+        width: 135px;
     }
 
     #expert .heading {
@@ -170,7 +206,7 @@
         overflow: hidden;
     }
     #association .association_img {
-        width: 130px;
+        width: 100%;
     }
     .association_center .association_img {
         width: 100%!important;
@@ -197,16 +233,6 @@
     .contact {
         margin-top: 50px;
     }
-/* 
-    .contact p a {
-        color: #fff;
-        font-size: 7px;
-    }
-    .footer_item p {
-        font-size: 9px;
-        font-weight: 400;
-        color: #ffff;
-    } */
 
 
 }
@@ -217,25 +243,50 @@
     #header_top .header_top_right p {
         margin-left: 0px;
         position: absolute;
-        right: 60pxpx;
+        right: 10px;
     }
     #header_top .header_top_right p a {
         margin-left: 15px;
         margin-right: 10px;
     }
-
+    
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        background: gray;
+        width: 290px;
+        padding: 12px 0px
+     
+    }
     header .nav-item {
         border: none;
         text-align: right;
         margin-bottom: 5px;
+        margin-top: 5px;
+        padding: 15px 8px;
     }
-
-
+    header .nav-item .nav-link {
+        color: #fff;
+        margin-top: -20px;
+        margin-right: 15px;
+    }
+ 
+    #slider {
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
     #slider::before {
         content: '';
         position: absolute;
         left: 0;
-        top: 225px;
+        top: 210px;
         right: 200;
         background: #000000;
         width: 100%;
@@ -246,7 +297,7 @@
     #slider h1 {
         padding: 0px;
         padding: top;
-        padding-top: 215px;
+        padding-top: 200px;
         text-align: center;
     }
 
@@ -325,19 +376,44 @@
         position: absolute;
         right: 60px;
     }
-
+    
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        background: gray;
+        width: 290px;
+        padding: 7px 0px
+     
+    }
     header .nav-item {
         border: none;
         text-align: right;
         margin-bottom: 5px;
+        margin-top: 5px;
+        padding: 15px 8px;
+    }
+    header .nav-item .nav-link {
+        color: #fff;
+        margin-top: -22px;
+        margin-right: 15px;
     }
 
-
+    #slider {
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
     #slider::before {
         content: '';
         position: absolute;
         left: 0;
-        top: 225px;
+        top: 215px;
         right: 200;
         background: #000000;
         width: 100%;
@@ -412,6 +488,9 @@
     }
     footer {
         padding: 80px 0px;
+    }
+    .footer_logo p {
+        margin: 75px 0px;
     }
     .contact {
         margin-left: 20px;

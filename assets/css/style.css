@@ -162,21 +162,29 @@ header .nav-item {
     padding: 0px 8px;
 }
 
+
 header .nav-item:first-child {
     border: none;
+
 }
+header .nav-item:first-child a {
+    color: #696565;
+}
+
 
 header .nav-item .nav-link {
     text-transform: uppercase;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     color: #fdfdfe;
     margin-top: -14px;
 }
 
-header .nav-item .nav-link:hover {
-    background: #fdfdf;
-    color: #fff;
+header .nav-item .nav-link:hover{
+    color: #696565;
+}
+.bb {
+    color: red;
 }
 
 
